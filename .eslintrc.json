@@ -1,0 +1,27 @@
+{
+    "extends": [
+      "standard",
+      "plugin:react/recommended",
+      "plugin:tailwindcss/recommended",
+      "plugin:@react-three",
+      "prettier"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "rules": {
+      "max-len": [2, 250],
+      "no-mulitple-empty-lines": [
+        "error",
+        {
+          "max": 1,
+          "maxEOF": 1
+        }
+      ],
+      "object-curly-newline": 0,
+      "react/react-in-jsx-scope": "off"  // Add this rule
+    }
+  }
+  
